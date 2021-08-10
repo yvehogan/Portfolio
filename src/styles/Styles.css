@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap");
+
+.hero-section {
+  color: #fff;
+  height: 600px;
+  position: relative;
+  margin-top: 5em;
+}
+.hero-section h3 {
+  color: #76eeea;
+  max-width: 500px;
+  line-height: 1.7em;
+}
+.introduction {
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  font-size: 15px;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #76eeea;
+}
+.eve {
+  font-size: 3em;
+  color: #d0f0c0;
+  font-family: cursive;
+}
+.use {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+  color: #d0f0c0;
+}
+.media-links {
+  margin: auto;
+  width: 70%;
+}
+.about-me {
+  border: 1px solid #76eeea;
+  color: #76eeea;
+  font-weight: bold;
+  padding: 1.2em 2.5em;
+  border-radius: 5px;
+  margin-top: 8em;
+  text-decoration: none;
+}
+
+.about-me:hover,
+.about-me:active {
+  background-color: #000033;
+}
+@media only screen and (max-width: 800px) {
+  .eve {
+    margin-top: 0.3em;
+    font-size: 1.8em;
+  }
+  .use {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  .hero-section h3 {
+    max-width: 900px;
+    line-height: 1.2em;
+    font-size: 17px;
+  }
+  .media-links {
+    margin: auto;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .eve {
+    margin-top: 0.3em;
+    font-size: 2em;
+  }
+  .use {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  .hero-section h3 {
+    max-width: 700px;
+    line-height: 1.2em;
+    font-size: 17px;
+  }
+  .media-links {
+    margin: auto;
+    width: 90%;
+  }
+  .about-me {
+    padding: 1.2em 2.5em;
+    margin-top: 4em;
+  }
+}
+
+/* About page styles */
+.about-page {
+  display: grid;
+  max-width: 800px;
+  margin: auto;
+  grid-template-columns: 450px 400px;
+  grid-gap: 3em;
+  color: #d0f0c0;
+}
+
+.evelyn-img {
+  height: 250px;
+  width: 200px;
+  margin-top: 7em;
+}
+.about-eve {
+  margin-top: 3em;
+  font-family: cursive;
+}
+.about-paragraph {
+  font-size: 20px;
+  margin: 0.5em 0;
+  line-height: 1.5em;
+}
+.skill-icon {
+  display: grid;
+  margin: 1em 0;
+}
+.skill-icon i {
+  margin-bottom: 1em;
+}
+.fas.fa-caret-right {
+  font-size: 1.2em;
+}
+.fas.fa-caret-right .icon-tag {
+  margin-right: 0.2em;
+}
+@media only screen and (max-width: 800px) {
+  .about-page {
+    display: grid;
+    max-width: 700px;
+    margin: auto;
+    grid-template-columns: 350px 350px;
+    grid-gap: 1em;
+  }
+  .evelyn-img {
+    width: 100%;
+  }
+  .about-eve {
+    margin-top: 3em;
+    font-family: cursive;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: auto;
+    grid-gap: 0;
+  }
+  .evelyn-img {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* THings i've worked on styles */
+.Experience {
+  display: grid;
+  max-width: 800px;
+  margin: auto;
+  color: #d0f0c0;
+}
+.Experience h3 {
+  margin-top: 10em;
+  margin-bottom: 0.5em;
+}
+.work-grids {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 300px 500px;
+}
+.work-grids span {
+  font-size: 1.2em;
+}
+.work-grids h4 {
+  margin: 0.5em 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Experience {
+    width: 90%;
+    margin: auto;
+  }
+  .work-grids {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    grid-template-columns: 150px 300px;
+  }
+}
+
+/* Projects page styles */
+.personal-projects {
+  margin: 7em 0 2em 0;
+  color: #d0f0c0;
+  text-align: center;
+  font-family: cursive;
+}
+.project-page {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 500px 500px;
+  grid-gap: 1em;
+}
+
+.container img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  border-radius: 5px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  background-color: #76eeea;
+}
+
+.container:hover .overlay,
+.container:active .overlay {
+  opacity: 1;
+}
+.portfolio {
+  font-family: cursive;
+  background-color: #070d24;
+  color: #76eeea;
+  padding: 0.5em 0.5em;
+  border-radius: 5px;
+  font-size: 15px;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+}
+
+.portfolio-btn {
+  opacity: 1;
+  color: #d0f0c0;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-page {
+    display: grid;
+    margin: 0 1em;
+    grid-template-columns: 350px 350px;
+    grid-gap: 1.5em;
+    align-items: center;
+  }
+  .project-page img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-page {
+    display: grid;
+    margin: auto;
+    margin-left: 10px;
+    grid-template-columns: 350px;
+    grid-gap: 1em;
+  }
+  .project-page img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+/* Skills styles */
+.skills-btn {
+  margin: 2em 1em;
+  text-align: center;
+}
+.skills-btn button {
+  background-color: #cc8891;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4em 0.7em;
+  margin-right: 0.5em;
+}
+
+.skills-btn h2 {
+  margin: 0.5em 0;
+}
+
+/* Resume styles */
+.resume-page {
+  color: #76eeea;
+  margin: 3em 0 0 3em;
+}
+.resume-link {
+  color: #d0f0c0;
+}
+
+/* Contact form styles */
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 7em;
+  text-align: center;
+  color: #d0f0c0;
+}
+.contact-form span {
+  font-size: 15px;
+}
+.contact-form h2 {
+  font-size: 50px;
+  margin: 0.3em 0;
+}
+.contact-form p {
+  width: 736px;
+  text-align: center;
+  font-size: 17px;
+}
+.contact-btn button {
+  border: 1px solid #76eeea;
+  color: #76eeea;
+  padding: 1.2em 2.5em;
+  border-radius: 5px;
+  margin-top: 2em;
+  text-decoration: none;
+}
+.icons {
+  display: flow-root;
+  margin-right: 0.5em;
+}
+.icons p {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.svg-inline--fa.fa-github-alt.fa-w-15,
+.svg-inline--fa.fa-linkedin.fa-w-14,
+.svg-inline--fa.fa-twitter.fa-w-16,
+.svg-inline--fa.fa-facebook.fa-w-16 {
+  font-size: 1.2em;
+  margin-right: 1em;
+  color: #fff;
+  padding: 0.5em;
+  transition: transform 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-form p {
+    width: 400px;
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+.svg-inline--fa.fa-github-alt.fa-w-15:hover,
+.svg-inline--fa.fa-linkedin.fa-w-14:hover,
+.svg-inline--fa.fa-twitter.fa-w-16:hover,
+.svg-inline--fa.fa-facebook.fa-w-16:hover {
+  transform: scale(1.1);
+}
+
+/* Footer styles */
+footer p {
+  color: #d0f0c0;
+  text-align: center;
+  margin: 10em 0 2em 0;
+}
+@media only screen and (max-width: 600px) {
+  footer p {
+    color: #d0f0c0;
+    text-align: center;
+    margin-top: 3em;
+  }
+}
