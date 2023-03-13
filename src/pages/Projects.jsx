@@ -102,6 +102,38 @@ const Projects = () => {
                         Metabnb WebApp
                     </a>
                 </div>
+                <div className=" bg-cards md:p-6 p-3 md:m-0 m-auto md:max-w-sm w-[90%] rounded-lg">
+                    <ul className="text-primary font-semibold flex flex-wrap gap-5">
+                        <li className="bg-secondary rounded p-2 text-sm text-center">React</li>
+                        <li className="bg-secondary rounded p-2 text-sm">JavaScript</li>
+                        <li className="bg-secondary rounded p-2 text-sm">Tailwind</li>
+                    </ul>
+                    <p className="py-3 text-white">A Microsite for Purple Academy</p>
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href='https://purpleacademy.wemabank.com/'
+                        className="underline">
+                        Purple Academy Microsite
+                    </a>
+                </div>
+                <div className=" bg-cards md:p-6 p-3 md:m-0 m-auto md:max-w-sm w-[90%] rounded-lg">
+                    <ul className="text-primary font-semibold flex flex-wrap gap-5">
+                        <li className="bg-secondary rounded p-2 text-sm text-center">React</li>
+                        <li className="bg-secondary rounded p-2 text-sm">JavaScript</li>
+                        <li className="bg-secondary rounded p-2 text-sm">Tailwind</li>
+                        <li className="bg-secondary rounded p-2 text-sm">SCSS</li>
+                        <li className="bg-secondary rounded p-2 text-sm">Storybook</li>
+                    </ul>
+                    <p className="py-3 text-white">A Capstone Project for HNG Internship</p>
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href='https://loveme.hng.tech/'
+                        className="underline">
+                        LoveMe WebApp
+                    </a>
+                </div>
             </div>
 
 
